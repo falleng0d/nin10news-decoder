@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.mjs",
   "type": "module",
+  "bin": "index.mjs",
+  "dist": {
+    "nin10news-decoder": "*.mjs"
+  },
   "scripts": {
     "start": "node index.mjs",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
-  "author": "Mateus Junior",
-  "license": "ISC",
+  "author": "Mateus Junior <juniormateusknd@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "commander": "^10.0.1",
     "cross-env": "^7.0.3",
