@@ -44,12 +44,13 @@ node nin10news-decoder.mjs inline "<plaintext_with_encoded_strings>"
 node nin10news-decoder.mjs "encoded_string"
 ```
 
-## License
-
-MIT
-
 # TODOS
 
 - [ ] Publish to npm
 - [ ] Automate cloudflare cookie retrieval
 - [ ] Allow installation via npm as a global cli tool
+
+# License
+
+MIT
+
