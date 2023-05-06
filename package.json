@@ -1,0 +1,19 @@
+{
+  "name": "nin10news-decoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "Mateus Junior",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "cross-env": "^7.0.3",
+    "node-fetch": "^3.3.1",
+    "vitest": "^0.31.0"
+  }
+}
