@@ -1,7 +1,7 @@
 {
   "name": "nin10news-decoder",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple command line application to decode encoded nin10news strings.",
   "main": "index.mjs",
   "type": "module",
   "bin": "index.mjs",
